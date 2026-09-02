@@ -1,10 +1,10 @@
 
 def hitung_rata2(list_nilai):
     nambah = 0
-    for i in list_nilai:
+    for idx,i in enumerate(list_nilai):
         nambah += i
         
-        print(f"Nilai ke-1: {i}")
+        print(f"Nilai ke-{idx+1}: {i}")
     rata2 = nambah / len(list_nilai)
     print(f"Rata-rata: {rata2}")
 
