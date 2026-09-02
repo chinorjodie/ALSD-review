@@ -10,7 +10,7 @@ nilai_uas= float(input("Masukkan nilai uas anda: "))
 nilai_akhir = nilaiakhir(nilai_tugas , nilai_uts, nilai_uas)
 
 
-
+# a
 grade = (grades(nilai_akhir))
 
 print(f"| Nilai {nilai_akhir} -> Grade {grade}")

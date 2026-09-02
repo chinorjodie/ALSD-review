@@ -2,7 +2,7 @@ def nilaiakhir(nilai_tugas , nilai_uts, nilai_uas):
     nilai_akhir = 0.3 * nilai_tugas + 0.3 * nilai_uts + 0.4 * nilai_uas
     return nilai_akhir
 
-
+# ?a
 def grades(nilai_akhir):
     
     if nilai_akhir >= 85 or nilai_akhir <= 100: 
